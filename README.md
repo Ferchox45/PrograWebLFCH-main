@@ -1,27 +1,59 @@
-# Proyectoang
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+# Integracion de una API con Angular
+Este proyecto de Angular 18.2 está diseñado para consumir una API de usuarios y proporcionar un sistema de autenticación mediante un formulario de inicio de sesión.
 
-## Development server
+## Caracteristicas
+Inicio de Sesión: Autenticación de usuarios mediante credenciales.
+Consumo de API: Obtención de datos de usuario desde una API
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Link de la Api
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Get all items
 
-## Build
+```https:
+https//api.escuelajs.co/api/v1/users
+```
+## Pantalla de Login
+![Pantalla de Login](public/image/login.jpg)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Dasboard con Usuarios
+![Pantalla de Login](public/image/Dashboard.jpg)
 
-## Running unit tests
+## Ejecucion de la aplicacion de manera local
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Clona el repositorio
 
-## Running end-to-end tests
+```bash
+  https://github.com/Ferchox45/PrograWebLFCH-main.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Vamos a la carpeta del proyecto
 
-## Further help
+```bash
+  cd PrograWebLFCH-main
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Instalamos dependencias
+
+```bash
+  npm install
+```
+
+Corremos el servidor de manera loca
+
+```bash
+  ng serve
+```
+Puedes ocupar cualquieras de las credenciales de la API, por ejemplo:
+
+```bash
+  usuario: Jhon
+  password: changeme
+```
+
+
+## Licencia
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+
+

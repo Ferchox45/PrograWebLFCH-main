@@ -15,11 +15,11 @@
 
 .sidebar {
   width: 250px;
-  background: linear-gradient(180deg, #32ff03, #7aff6e); /* Gradiente suave de colores cálidos */
+  background: linear-gradient(180deg, #32ff03, #7aff6e); 
   padding: 10px;
   box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
-  border-radius: 10px 0 0 10px; /* Bordes redondeados para la sidebar */
+ 
 }
 
 
@@ -54,7 +54,7 @@ main {
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
   margin-left: 30px;
   overflow-y: auto;
-  background: linear-gradient(180deg, #ffffff, #f8f9fa); /* Fondo degradado para dar más profundidad */
+  background: linear-gradient(180deg, #ffffff, #f8f9fa); 
 }
 
 main h1 {
@@ -62,7 +62,7 @@ main h1 {
   margin-bottom: 20px;
   color: #333;
   font-weight: 700;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05); /* Sombra para darle profundidad */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05); 
 }
 
 main p {
@@ -81,7 +81,7 @@ button {
   font-size: 18px;
   font-weight: 500;
   transition: background-color 0.3s, transform 0.3s;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Sombra para crear un efecto de profundidad */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
 }
 
 
